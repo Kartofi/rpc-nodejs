@@ -7,8 +7,8 @@ rpc.on("ready", () => {
     rpc.setActivity({
         details: "Finding My Dad",
         state: "nothing so far",
-        largeImageKey: "1629390298818",
-        largeImageText: "1629390298818",
+        largeImageKey: "some image name",
+        largeImageText: "some image name",
         buttons : [{label : "Dad", url : "https://www.youtube.com/watch?v=dQw4w9WgXcQ"}]
     })
 
@@ -16,5 +16,5 @@ rpc.on("ready", () => {
 })
 
 rpc.login({
-    clientId: "629948362245799937"
+    clientId: "your id"
 })
